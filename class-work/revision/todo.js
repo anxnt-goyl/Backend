@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const fs = require("fs");
 const http = require("http");
 const path = require("path");
@@ -26,3 +27,6 @@ http.createServer((req,res)=>{
     }
 
 }).listen(8000);
+=======
+const fs = require()
+>>>>>>> 7fa714606eb9c1918e9bdc927bee014f91ec0a2e
