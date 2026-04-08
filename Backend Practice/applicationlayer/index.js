@@ -22,7 +22,6 @@ const express = require("express");
 const app= express();
 const fs = require("fs");
 const user = require("./users_400.json");
-const { url } = require("inspector");
 app.use(express.urlencoded({extended:true}));
 app.get('/',(req,res)=>{
     res.send("Hello World");
